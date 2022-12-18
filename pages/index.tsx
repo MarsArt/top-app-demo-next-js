@@ -6,8 +6,8 @@ export default function Home(): JSX.Element {
         <div>
             Hello with fonts
             <Htag tag='h1'>Текст</Htag>
-            <Button apperance='primary' className='XPPPP'>Кнопка</Button>
-            <Button apperance='ghost'>Кнопка</Button>
+            <Button apperance='primary' arrow='right'>Кнопка</Button>
+            <Button apperance='ghost' arrow='down'>Кнопка</Button>
         </div>
     );
 }
