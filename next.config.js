@@ -2,6 +2,7 @@ module.exports = {
     images: {
         domains: ['courses-top.ru']
     },
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     webpack(config, options) {
         config.module.rules.push({
             loader: '@svgr/webpack',
