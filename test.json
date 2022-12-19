@@ -1,0 +1,983 @@
+{
+    "id": "d3b14371-e5f8-4348-8dfd-f66aca0ae116",
+    "date": "2022-07-22T14:31:25.4058509+00:00",
+    "source": {
+        "sourceName": "skinconsultai",
+        "sourceCreationDate": "2022-07-22T14:31:25.4056849Z",
+        "sourceCampaignType": null,
+        "sourceCampaignName": null,
+        "sourcePersonId": null
+    },
+    "personProfile": {
+        "mindBoxID": null
+    },
+    "recommendations": [
+        {
+            "id": "0665e89d-1870-4c77-93d8-862cec9e8365",
+            "analysisId": "6758b722-6665-419d-b061-2387651971ad",
+            "routines": [
+                {
+                    "type": "routineEvent",
+                    "label": "morning",
+                    "id": "1",
+                    "name": "morning",
+                    "order": "1.0",
+                    "selected": false,
+                    "steps": [
+                        {
+                            "type": "step",
+                            "label": "Nettoyer",
+                            "id": "1",
+                            "name": null,
+                            "order": "1.0",
+                            "selected": false,
+                            "products": [
+                                {
+                                    "id": "3337875663083",
+                                    "label": "Phytosolution - Gel purifiant intense",
+                                    "score": null,
+                                    "recommended": true,
+                                    "selected": false,
+                                    "productFunnelStatus": "impressed",
+                                    "shortDescription": "Notre 1er gel nettoyant purifiant pour les peaux grasses à tendance acnéique, enrichi en minéraux et en probiotique, qui élimine parfaitement les impuretés et l’excès de sébum. La peau est matifiée et regraisse moins vite. Les pores et les points noirs sont réduits. Ce gel est formulé à partir de 3 actifs anti-imperfections puissants dans une base nettoyante d’origine végétale. - ZINC | ANTI-BACTÉRIEN ET ANTI-INFLAMMATOIRE - CUIVRE | REGULE LE SEBUM - PROBIOTIQUES | RENFORCE LA BARRIÈRE CUTANÉE EFFICACITÉ CLINIQUE PROUVÉE SUR PEAUX À TENDANCE ACNÉIQUE. ",
+                                    "rank": null,
+                                    "ean": "3337875663083",
+                                    "brand": "Vichy",
+                                    "country": null,
+                                    "productCategory": "Nettoyant & Démaquillant",
+                                    "displayName": "Phytosolution - Gel purifiant intense",
+                                    "pdpUrl": "https://www-fr-vc2016-preprod.vc-portal.com/visage/phytosolution-gel-purifiant-intense-normaderm/p26207.aspx",
+                                    "packshotImageUrl": "https://www-fr-vc2016-preprod.vc-portal.com/site/pages/showImageResized.aspx?EncMediaId=Q3Z3aGFRMS9tbWlTcEpDeVo3ZnMzZz09&ImageFormatAppCode=IMAGEFORMAT_PDPV4_PACK_DKP_530_530&v=220227064758",
+                                    "additionalProperties": [
+                                        {
+                                            "code": "franchise",
+                                            "value": "NORMADERM"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "step",
+                            "label": "Fortifier",
+                            "id": "2",
+                            "name": null,
+                            "order": "2.0",
+                            "selected": false,
+                            "products": [
+                                {
+                                    "id": "3337875762908",
+                                    "label": "SÉRUM MINERAL 89 PROBIOTIC FRACTIONS - Hydratation & Fermeté",
+                                    "score": null,
+                                    "recommended": true,
+                                    "selected": false,
+                                    "productFunnelStatus": "impressed",
+                                    "shortDescription": "Sérum hydratant, régénérant et réparateur. Tous types de peaux. Renforce les défenses naturelles de la peau. Répare la barrière cutanée. Booste l&rsquo;éclat et l&rsquo;élasticité.",
+                                    "rank": null,
+                                    "ean": "3337875762908",
+                                    "brand": "Vichy",
+                                    "country": null,
+                                    "productCategory": "",
+                                    "displayName": "SÉRUM MINERAL 89 PROBIOTIC FRACTIONS - Hydratation & Fermeté",
+                                    "pdpUrl": "https://www-fr-vc2016-preprod.vc-portal.com/visage/serum-mineral-89-probiotic-fractions-hydratation-amp-fermete-mineral-89/p44722.aspx",
+                                    "packshotImageUrl": "https://www-fr-vc2016-preprod.vc-portal.com/site/pages/showImageResized.aspx?EncMediaId=cXVjNW1zd2NyaWpYWE8vK3F0Y09idz09&ImageFormatAppCode=IMAGEFORMAT_PDPV4_PACK_DKP_530_530&v=220227064758",
+                                    "additionalProperties": [
+                                        {
+                                            "code": "franchise",
+                                            "value": "MINERAL 89"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "step",
+                            "label": "Transformer",
+                            "id": "3",
+                            "name": null,
+                            "order": "3.0",
+                            "selected": false,
+                            "products": [
+                                {
+                                    "id": "3337875796583",
+                                    "label": "SUPREME VITAMIN C SERUM - Rides & Eclat",
+                                    "score": null,
+                                    "recommended": true,
+                                    "selected": false,
+                                    "productFunnelStatus": "impressed",
+                                    "shortDescription": "Sérum éclat anti-rides. Sérum antioxydant à la vitamine C pure. Tous types de peaux. Corrige les rides. Ravive l&rsquo;éclat.",
+                                    "rank": null,
+                                    "ean": "3337875796583",
+                                    "brand": "Vichy",
+                                    "country": null,
+                                    "productCategory": "Sérum visage",
+                                    "displayName": "SUPREME VITAMIN C SERUM - Rides & Eclat",
+                                    "pdpUrl": "https://www-fr-vc2016-preprod.vc-portal.com/visage/supreme-vitamin-c-serum-rides-amp-eclat-liftactiv/p44725.aspx",
+                                    "packshotImageUrl": "https://www-fr-vc2016-preprod.vc-portal.com/site/pages/showImageResized.aspx?EncMediaId=R25rbmlNU2dzMktZZUpydlpXcGV6dz09&ImageFormatAppCode=IMAGEFORMAT_PDPV4_PACK_DKP_530_530&v=220227064758",
+                                    "additionalProperties": [
+                                        {
+                                            "code": "franchise",
+                                            "value": "LIFTACTIV"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "step",
+                            "label": "Hydrater",
+                            "id": "4",
+                            "name": null,
+                            "order": "4.0",
+                            "selected": false,
+                            "products": [
+                                {
+                                    "id": "3337875588829",
+                                    "label": "Crème réhydratante légère",
+                                    "score": null,
+                                    "recommended": true,
+                                    "selected": false,
+                                    "productFunnelStatus": "impressed",
+                                    "shortDescription": "La crème légère AQUALIA THERMAL est un soin hydratant recommandé pour les peaux normales à mixtes. Sa texture légère laisse sur la peau une sensation de confort poids plume. Inspirée des solutions de réhydratation isotoniques utilisées en milieu médical pour lutter contre les fortes déshydratations, la crème réhydratante légère Vichy, renforce l'hydratation naturelle et limite les pertes hydriques de la peau. La peau est immédiatement repulpée, fraîche et hydratée pour 48h.  *Les 3% restants garantissent une sensorialité et une conservation optimales.  Envie d'en savoir plus sur la réhydratation de la peau et les actifs à privilégier ?  Découvrez nos conseils d'expert ici : https://www.vichy.fr/le-vichy-mag/rehydrater-sa-peau-les-meilleurs-actifs/vmag69912.aspx",
+                                    "rank": null,
+                                    "ean": "3337875588829",
+                                    "brand": "Vichy",
+                                    "country": null,
+                                    "productCategory": "Crème de jour",
+                                    "displayName": "Crème réhydratante légère",
+                                    "pdpUrl": "https://www-fr-vc2016-preprod.vc-portal.com/visage/creme-rehydratante-legere-aqualia-thermal/p24925.aspx",
+                                    "packshotImageUrl": "https://www-fr-vc2016-preprod.vc-portal.com/site/pages/showImageResized.aspx?EncMediaId=NDhkbnF2eGNnT2NMVTVsS01xUHFIdz09&ImageFormatAppCode=IMAGEFORMAT_PDPV4_PACK_DKP_530_530&v=220227064758",
+                                    "additionalProperties": [
+                                        {
+                                            "code": "franchise",
+                                            "value": "AQUALIA THERMAL"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "routineEvent",
+                    "label": "Night",
+                    "id": "2",
+                    "name": "night",
+                    "order": "2.0",
+                    "selected": false,
+                    "steps": [
+                        {
+                            "type": "step",
+                            "label": "",
+                            "id": "1",
+                            "name": null,
+                            "order": "1.0",
+                            "selected": false,
+                            "products": [
+                                {
+                                    "id": "3337871324568",
+                                    "label": "EFFET SPA - SOIN DE NUIT ou MASQUE Gel-crème ressourçant défatigant",
+                                    "score": null,
+                                    "recommended": true,
+                                    "selected": false,
+                                    "productFunnelStatus": "impressed",
+                                    "shortDescription": "Au réveil, la peau paraît transformée, plus souple et douce au toucher.  Les traits sont reposés, le visage est comme défatigué.  Sensation d'hydratation et de confort longue durée. ",
+                                    "rank": null,
+                                    "ean": "3337871324568",
+                                    "brand": "Vichy",
+                                    "country": null,
+                                    "productCategory": "Crème de nuit",
+                                    "displayName": "EFFET SPA - SOIN DE NUIT ou MASQUE Gel-crème ressourçant défatigant",
+                                    "pdpUrl": "https://www-fr-vc2016-preprod.vc-portal.com/visage/effet-spa-soin-de-nuit-ou-masque-gel-creme-ressourcant-defatigant-aqualia-thermal/p8920.aspx",
+                                    "packshotImageUrl": "https://www-fr-vc2016-preprod.vc-portal.com/site/pages/showImageResized.aspx?EncMediaId=Vm9uc3RDWmIxRzdac1ZQS1VOSUVKUT09&ImageFormatAppCode=IMAGEFORMAT_PDPV4_PACK_DKP_530_530&v=220227064758",
+                                    "additionalProperties": [
+                                        {
+                                            "code": "franchise",
+                                            "value": "AQUALIA THERMAL"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "routineEvent",
+                    "label": "Care",
+                    "id": "3",
+                    "name": "care",
+                    "order": "3.0",
+                    "selected": false,
+                    "steps": [
+                        {
+                            "type": "step",
+                            "label": "",
+                            "id": "1",
+                            "name": null,
+                            "order": "1.0",
+                            "selected": false,
+                            "products": [
+                                {
+                                    "id": "3337871324568",
+                                    "label": "EFFET SPA - SOIN DE NUIT ou MASQUE Gel-crème ressourçant défatigant",
+                                    "score": null,
+                                    "recommended": true,
+                                    "selected": false,
+                                    "productFunnelStatus": "impressed",
+                                    "shortDescription": "Au réveil, la peau paraît transformée, plus souple et douce au toucher.  Les traits sont reposés, le visage est comme défatigué.  Sensation d'hydratation et de confort longue durée. ",
+                                    "rank": null,
+                                    "ean": "3337871324568",
+                                    "brand": "Vichy",
+                                    "country": null,
+                                    "productCategory": "Crème de nuit",
+                                    "displayName": "EFFET SPA - SOIN DE NUIT ou MASQUE Gel-crème ressourçant défatigant",
+                                    "pdpUrl": "https://www-fr-vc2016-preprod.vc-portal.com/visage/effet-spa-soin-de-nuit-ou-masque-gel-creme-ressourcant-defatigant-aqualia-thermal/p8920.aspx",
+                                    "packshotImageUrl": "https://www-fr-vc2016-preprod.vc-portal.com/site/pages/showImageResized.aspx?EncMediaId=Vm9uc3RDWmIxRzdac1ZQS1VOSUVKUT09&ImageFormatAppCode=IMAGEFORMAT_PDPV4_PACK_DKP_530_530&v=220227064758",
+                                    "additionalProperties": [
+                                        {
+                                            "code": "franchise",
+                                            "value": "AQUALIA THERMAL"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "interactions": [
+        {
+            "analysisId": "6758b722-6665-419d-b061-2387651971ad",
+            "type": "survey",
+            "name": "null",
+            "version": "SKINCONSULT_2021_01",
+            "language": "en",
+            "value": [
+                {
+                    "type": "measurements",
+                    "code": "analytic",
+                    "number": 0,
+                    "values": [
+                        {
+                            "analytic": [
+                                {
+                                    "analyticPath": "analysis/skinProfile/priorities/concerns",
+                                    "bmdmEntity": "concerns",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "finelines"
+                                        },
+                                        {
+                                            "field": "gapscore",
+                                            "value": "0.33"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "wholeface"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "analyticPath": "analysis/skinProfile/priorities/concerns",
+                                    "bmdmEntity": "concerns",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "deepwrinkles"
+                                        },
+                                        {
+                                            "field": "gapscore",
+                                            "value": "0.58"
+                                        },
+                                        {
+                                            "field": "rangecode",
+                                            "value": "none"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "wholeface"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "analyticPath": "analysis/skinProfile/priorities/concerns",
+                                    "bmdmEntity": "concerns",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "lackoffirmness"
+                                        },
+                                        {
+                                            "field": "gapscore",
+                                            "value": "0.5"
+                                        },
+                                        {
+                                            "field": "rangecode",
+                                            "value": "low"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "lowerpartoftheface"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "analyticPath": "analysis/skinProfile/priorities/concerns",
+                                    "bmdmEntity": "concerns",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "largepores"
+                                        },
+                                        {
+                                            "field": "gapscore",
+                                            "value": "0.42"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "cheek"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "analyticPath": "analysis/skinProfile/priorities/concerns",
+                                    "bmdmEntity": "concerns",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "darkpigmentation"
+                                        },
+                                        {
+                                            "field": "gapscore",
+                                            "value": "0.49"
+                                        },
+                                        {
+                                            "field": "rangecode",
+                                            "value": "low"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "wholeface"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "analyticPath": "analysis/skinProfile/priorities/concerns",
+                                    "bmdmEntity": "concerns",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "lackofradiance"
+                                        },
+                                        {
+                                            "field": "gapscore",
+                                            "value": "0.47"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "wholeface"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Quel âge avez-vous ?",
+                    "code": "age",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "22",
+                            "analytic": [
+                                {
+                                    "analyticPath": "generalProfile/description/age",
+                                    "bmdmEntity": "ages",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "rawScore",
+                                            "value": "22"
+                                        },
+                                        {
+                                            "field": "code",
+                                            "value": "20-24"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Quel terme décrit le mieux votre type de peau ?",
+                    "code": "skinType",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "Normale",
+                            "analytic": [
+                                {
+                                    "analyticPath": "skinprofile/description/skintypes",
+                                    "bmdmEntity": "skintypes",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "Normale"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "wholeface"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Comment évaluez-vous son irratation&nbsp;?",
+                    "code": "skinsensitivity",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "Faible",
+                            "analytic": [
+                                {
+                                    "analyticPath": "skinprofile/description/skinsensitivities",
+                                    "bmdmEntity": "skinsensitivities",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "low"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "wholeface"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Comment évaluez-vous sa perte de fermeté&nbsp;?",
+                    "code": "tightness",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "Faible",
+                            "analytic": [
+                                {
+                                    "analyticPath": "skinprofile/priorities/concernImprovementGoals",
+                                    "bmdmEntity": "concerns",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "concernCode",
+                                            "value": "tightness"
+                                        },
+                                        {
+                                            "field": "currentRangeCode",
+                                            "value": "low"
+                                        },
+                                        {
+                                            "field": "expectedRangeCode",
+                                            "value": "none"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "wholeface"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Comment évaluez-vous ses rougeurs ?",
+                    "code": "blotchiness",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "Faible",
+                            "analytic": [
+                                {
+                                    "analyticPath": "skinprofile/priorities/concernImprovementGoals",
+                                    "bmdmEntity": "concerns",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "concernCode",
+                                            "value": "blotchiness"
+                                        },
+                                        {
+                                            "field": "currentRangeCode",
+                                            "value": "low"
+                                        },
+                                        {
+                                            "field": "expectedRangeCode",
+                                            "value": "none"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "wholeface"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Quel est la teinte de peau qui correspond le mieux à la vôtre ?",
+                    "code": "skintone",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "Modéré",
+                            "analytic": [
+                                {
+                                    "analyticPath": "skinProfile/description/skinTones",
+                                    "bmdmEntity": "skinTones",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "medium"
+                                        },
+                                        {
+                                            "field": "zones",
+                                            "value": "wholeface"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Depuis combien de temps vivez-vous dans cette ville ?",
+                    "code": "placeoflife_periode",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "",
+                            "analytic": [
+                                {
+                                    "analyticPath": "generalProfile/description/externalfactors",
+                                    "bmdmEntity": "externalfactors",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "pollution"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "En moyenne, combien d&#39;heures passez-vous à l&#39;extérieur chaque jour ?",
+                    "code": "externalfactors_UV",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "",
+                            "analytic": [
+                                {
+                                    "analyticPath": "generalProfile/description/externalfactors",
+                                    "bmdmEntity": "externalfactors",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "uv"
+                                        },
+                                        {
+                                            "field": "rangecode",
+                                            "value": "none"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "À quelle fréquence appliquez vous une protection SPF ?",
+                    "code": "routines_sunscreen",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "De temps en temps",
+                            "analytic": [
+                                {
+                                    "analyticPath": "skinProfile/routines/productsUsed",
+                                    "bmdmEntity": "producttypes",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "sunscreen"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Fumez vous ?&nbsp;",
+                    "code": "internalfactors_smoking",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "Occasionnellement",
+                            "analytic": [
+                                {
+                                    "analyticPath": "generalProfile/description/internalfactors",
+                                    "bmdmEntity": "internalfactors",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "smoking"
+                                        },
+                                        {
+                                            "field": "rangecode",
+                                            "value": "medium"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Comment décririez-vous votre niveau de stress ?",
+                    "code": "externalfactors_stress",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "Modéré",
+                            "analytic": [
+                                {
+                                    "analyticPath": "generalProfile/description/internalfactors",
+                                    "bmdmEntity": "internalfactors",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "stress"
+                                        },
+                                        {
+                                            "field": "rangecode",
+                                            "value": "medium"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "questions",
+                    "label": "Quels produits utilisez-vous ?",
+                    "code": "routines_products",
+                    "number": 0,
+                    "values": [
+                        {
+                            "label": "Tonique;",
+                            "analytic": [
+                                {
+                                    "analyticPath": "skinProfile/routines/productsUsed",
+                                    "bmdmEntity": "skincareproducts",
+                                    "bmdmValues": [
+                                        {
+                                            "field": "code",
+                                            "value": "toner"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "diagnosis_result",
+                    "label": "",
+                    "code": "MyProfile",
+                    "number": 0,
+                    "values": [
+                        {
+                            "code": "MyProfile",
+                            "label": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "diagnosis_result",
+                    "label": "",
+                    "code": "MyProfileDesc",
+                    "number": 0,
+                    "values": [
+                        {
+                            "code": "MyprofileDesc",
+                            "label": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "diagnosis_result",
+                    "label": "Rides profondes",
+                    "code": "deepwrinkles",
+                    "number": 1,
+                    "values": [
+                        {
+                            "code": "name",
+                            "label": "Rides profondes"
+                        },
+                        {
+                            "code": "position",
+                            "label": "1"
+                        },
+                        {
+                            "code": "displayedScore",
+                            "label": "0"
+                        },
+                        {
+                            "code": "status",
+                            "label": "strength"
+                        },
+                        {
+                            "code": "statusRank",
+                            "label": "1"
+                        },
+                        {
+                            "code": "desc1",
+                            "label": "Les rides sont le résultat d&#39;un vieillissement intrinsèque et extrinsèque. Avec le temps, elles gagnent en visibilité et en présence sur de nombreux endroits du visage.​"
+                        }
+                    ]
+                },
+                {
+                    "type": "diagnosis_result",
+                    "label": "Manque de fermeté",
+                    "code": "lackoffirmness",
+                    "number": 2,
+                    "values": [
+                        {
+                            "code": "name",
+                            "label": "Manque de fermeté"
+                        },
+                        {
+                            "code": "position",
+                            "label": "2"
+                        },
+                        {
+                            "code": "displayedScore",
+                            "label": "0.3"
+                        },
+                        {
+                            "code": "status",
+                            "label": "average"
+                        },
+                        {
+                            "code": "statusRank",
+                            "label": "4"
+                        },
+                        {
+                            "code": "desc1",
+                            "label": "Le manque de fermeté est dû à un relâchement du tissu cutané, particulièrement visible au niveau des mâchoires et du cou."
+                        }
+                    ]
+                },
+                {
+                    "type": "diagnosis_result",
+                    "label": "Tâches brunes",
+                    "code": "darkpigmentation",
+                    "number": 3,
+                    "values": [
+                        {
+                            "code": "name",
+                            "label": "Tâches Brunes"
+                        },
+                        {
+                            "code": "position",
+                            "label": "3"
+                        },
+                        {
+                            "code": "displayedScore",
+                            "label": "0.5"
+                        },
+                        {
+                            "code": "status",
+                            "label": "average"
+                        },
+                        {
+                            "code": "statusRank",
+                            "label": "3"
+                        },
+                        {
+                            "code": "desc1",
+                            "label": "Les taches brunes peuvent nuire à l&#39;homogénéité et à l&#39;uniformité de la peau. Elles apparaissent naturellement avec l&#39;âge, mais leur développement peut être accentué par les rayons UV et la pollution."
+                        }
+                    ]
+                },
+                {
+                    "type": "diagnosis_result",
+                    "label": "Les pores ",
+                    "code": "largepores",
+                    "number": 4,
+                    "values": [
+                        {
+                            "code": "name",
+                            "label": "Les pores"
+                        },
+                        {
+                            "code": "position",
+                            "label": "4"
+                        },
+                        {
+                            "code": "displayedScore",
+                            "label": "0.9"
+                        },
+                        {
+                            "code": "status",
+                            "label": "average"
+                        },
+                        {
+                            "code": "statusRank",
+                            "label": "2"
+                        },
+                        {
+                            "code": "desc1",
+                            "label": "Les pores visibles sont souvent dus à un excès de sébum. Néanmoins, les pores dilatés sont également un signe de vieillissement cutané, lié aau manque de fermeté et d&#39;élasticité de la peau."
+                        }
+                    ]
+                },
+                {
+                    "type": "diagnosis_result",
+                    "label": "Rides sous les yeux",
+                    "code": "underneatheyewrinkles",
+                    "number": 5,
+                    "values": [
+                        {
+                            "code": "name",
+                            "label": "RIDES SOUS LES YEUX"
+                        },
+                        {
+                            "code": "position",
+                            "label": "5"
+                        },
+                        {
+                            "code": "displayedScore",
+                            "label": "0.9"
+                        },
+                        {
+                            "code": "status",
+                            "label": "average"
+                        },
+                        {
+                            "code": "statusRank",
+                            "label": "1"
+                        },
+                        {
+                            "code": "desc1",
+                            "label": "La zone située sous les yeux est l&#39;une des plus stimulées et des plus fragiles du visage. Par conséquent,&nbsp; elle peut rapidement présenter des signes de vieillissement.​"
+                        }
+                    ]
+                },
+                {
+                    "type": "diagnosis_result",
+                    "label": "RIDULES",
+                    "code": "finelines",
+                    "number": 6,
+                    "values": [
+                        {
+                            "code": "name",
+                            "label": "RIDULES"
+                        },
+                        {
+                            "code": "position",
+                            "label": "6"
+                        },
+                        {
+                            "code": "displayedScore",
+                            "label": "0.9"
+                        },
+                        {
+                            "code": "status",
+                            "label": "priority"
+                        },
+                        {
+                            "code": "statusRank",
+                            "label": "2"
+                        },
+                        {
+                            "code": "desc1",
+                            "label": "Les ridules apparaissent souvent au début du processus de vieillissement, mais elles peuvent aussi refléter un manque d&#39;hydratation ou une zone sur-sollicitée."
+                        }
+                    ]
+                },
+                {
+                    "type": "diagnosis_result",
+                    "label": "Manque d'éclat",
+                    "code": "lackofradiance",
+                    "number": 7,
+                    "values": [
+                        {
+                            "code": "name",
+                            "label": "Manque d&#39;éclat"
+                        },
+                        {
+                            "code": "position",
+                            "label": "7"
+                        },
+                        {
+                            "code": "displayedScore",
+                            "label": "1.4"
+                        },
+                        {
+                            "code": "status",
+                            "label": "priority"
+                        },
+                        {
+                            "code": "statusRank",
+                            "label": "1"
+                        },
+                        {
+                            "code": "desc1",
+                            "label": "Lorsque la peau perd de son éclat, l&#39;apparence générale du visage peut s&#39;en trouver altérée. La peau peut alors sembler manquer de luminosité et paraître terne, fatiguée."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "crm": {
+            "brand": "Vichy",
+            "sourceName": "Apotamox",
+            "sourceChannel": "Online",
+            "sourceRegistrationType": "Subscription",
+            "campaignType": "Diagnosis",
+            "campaignName": "skinconsultai",
+            "contactCategory": "Consumer",
+            "contactType": "Consumer",
+            "language": "fr_FR",
+            "provider": "Dsf",
+            "diagnosisName": "skinconsultai"
+        }
+    }
+}
