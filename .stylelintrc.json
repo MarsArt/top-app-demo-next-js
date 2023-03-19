@@ -6,6 +6,7 @@
         "indentation": [
             4
         ],
-        "color-hex-case": "upper"
+        "color-hex-case": "upper",
+        "selector-class-pattern": null
     }
 }
