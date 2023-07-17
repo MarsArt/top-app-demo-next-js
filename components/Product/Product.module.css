@@ -1,3 +1,4 @@
+/* stylelint-disable declaration-empty-line-before */
 .product {
     display: grid;
     /* stylelint-disable-next-line max-line-length */
@@ -9,8 +10,6 @@
 .logo {
     grid-column: start / logoend;
     grid-row: 1 / span 2;
-    grid-area: logo;
-    margin-bottom: 20px;
 }
 
 .title,
@@ -44,13 +43,11 @@
 
 .feature {
     grid-column: start / middle;
-    grid-area: feature;
     margin-bottom: 20px;
 }
 
 .advBlock {
     grid-column: middle / end;
-    grid-area: advBlock;
     font-size: 16px;
     line-height: 22px;
 }
@@ -63,8 +60,6 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
-    align-self: flex-end;
-    grid-area: title;
 }
 
 .category {
@@ -81,7 +76,6 @@
 .month {
     font-size: 14px;
     line-height: 27px;
-    align-self: flex-end;
 }
 
 .oldPrice {
@@ -90,11 +84,9 @@
 
 .rating {
     align-self: flex-end;
-    grid-area: rating;
 }
 
 .description {
-    grid-area: description;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 15px;
@@ -160,7 +152,7 @@
 
 @media screen and (max-width: 1320px) {
     .product {
-        grid-template-columns: 70px  30px  auto  40px  auto  40px  1fr;
+        grid-template-columns: 70px 30px auto 40px auto 40px 1fr;
         grid-template-areas:
             "logo . title title title title title"
             "logo . tags tags tags tags tags"
@@ -173,43 +165,72 @@
             "hr2 hr2 hr2 hr2 hr2 hr2 hr2"
             "actions actions actions actions actions actions actions";
     }
-}
 
-.tags {
-    grid-area: tags;
-    margin-bottom: 20px;
-}
+    .logo {
+        grid-area: logo;
 
-.price {
-    grid-area: price;
-}
+        margin-bottom: 20px;
+    }
 
-.credit {
-    grid-area: credit;
-}
+    .title {
+        grid-area: title;
+    }
 
-.priceTitle {
-    grid-area: priceTitle;
-}
+    .tags {
+        grid-area: tags;
 
-.creditTitle {
-    grid-area: creditTitle;
-}
+        margin-bottom: 20px;
+    }
 
-.rateTitle {
-    grid-area: rateTitle;
-}
+    .price {
+        grid-area: price;
+    }
 
-.hr {
-    grid-area: hr;
-}
+    .credit {
+        grid-area: credit;
+    }
 
-.hr2 {
-    grid-area: hr2;
-}
+    .rating {
+        grid-area: rating;
+    }
 
-.actions {
-    grid-area: actions;
+    .priceTitle {
+        grid-area: priceTitle;
+    }
+
+    .creditTitle {
+        grid-area: creditTitle;
+    }
+
+    .rateTitle {
+        grid-area: rateTitle;
+    }
+
+    .hr {
+        grid-area: hr;
+    }
+
+    .description {
+        grid-area: description;
+    }
+
+    .feature {
+        grid-area: feature;
+
+        margin-bottom: 20px;
+    }
+
+    .advBlock {
+        grid-area: advBlock;
+    }
+
+    .hr2 {
+        grid-area: hr2;
+    }
+
+    .actions {
+        grid-area: actions;
+    }
 }
 
 @media screen and (max-width: 640px) {
