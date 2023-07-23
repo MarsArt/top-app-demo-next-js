@@ -6,10 +6,14 @@ import { TopLevelCategory } from '../../interfaces/page.interface';
 import { SortEnum } from '../../components/Sort/Sort.props';
 import { sortReducer } from './sort.reducer';
 import { useEffect, useReducer } from 'react';
+import { useScrollY } from '../../hooks/useScrollY';
 
 export const TopPageComponent = ({ page, products, firstCategory }: TopPageComponentProps): JSX.Element => {
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [{ products: sortedProducts, sort }, dispathSort] = useReducer(sortReducer, { products, sort: SortEnum.Rating });
+
+    const y = useScrollY();
 
     const setSort = (sort: SortEnum) => {
         dispathSort({ type: sort });
@@ -23,13 +27,14 @@ export const TopPageComponent = ({ page, products, firstCategory }: TopPageCompo
 
     return (
         <div className={styles.wrapper}>
+            <h1>{y}</h1>
             <div className={styles.title}>
                 <Htag tag='h1'>{page.title}</Htag>
                 {products && <Tag color='grey' size='m'>{products.length}</Tag>}
                 <Sort sort={sort} setSort={setSort} />
             </div>
             <div>
-                {products && products.map(p => (<Product key={p._id} product={p} />))}
+                {products && products.map(p => (<Product layout key={p._id} product={p} />))}
             </div>
             <div className={styles.hhTitle}>
                 <Htag tag='h1'>Вакансии - {page.category}</Htag>

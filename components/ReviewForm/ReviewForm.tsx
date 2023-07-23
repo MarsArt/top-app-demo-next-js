@@ -1,8 +1,6 @@
 import { ReviewFormProps } from './ReviewForm.props';
 import styles from './ReviewForm.module.css';
-import UserIcon from './User.svg';
 import cn from 'classnames';
-import { format } from 'date-fns';
 import { ru } from 'date-fns/locale';
 import { Rating } from '../Rating/Rating';
 import { Input } from '../Input/Input';

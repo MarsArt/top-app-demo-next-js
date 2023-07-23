@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import { ProductProps } from './Product.props';
 import styles from './Product.module.css';
 import cn from 'classnames';
@@ -8,11 +9,12 @@ import { Button } from '../Button/Button';
 import { priceRu, declOfNum } from '../../helpers/helpers';
 import { Divider } from '../Divider/Divider';
 import Image from 'next/image';
-import { useRef, useState } from 'react';
+import { forwardRef, ForwardedRef, useRef, useState } from 'react';
 import { Review } from '../Review/Review';
 import { ReviewForm } from '../ReviewForm/ReviewForm';
+import { motion } from 'framer-motion'
 
-export const Product = ({ product, className, ...props }: ProductProps): JSX.Element => {
+export const Product = motion(forwardRef(({ product, className, ...props }: ProductProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
 
     const [isReviewOpened, setIsReviewOpened] = useState<boolean>(false);
     const reviewRef = useRef<HTMLDivElement>(null);
@@ -27,7 +29,7 @@ export const Product = ({ product, className, ...props }: ProductProps): JSX.Ele
     };
 
     return (
-        <div className={className} {...props}>
+        <div className={className} ref={ref}  {...props}>
             <Card className={styles.product}>
                 <div className={styles.logo}>
                     <Image
@@ -86,15 +88,15 @@ export const Product = ({ product, className, ...props }: ProductProps): JSX.Ele
             <Card color='blue' className={cn(styles.reviews, {
                 [styles.opened]: isReviewOpened,
                 [styles.closed]: !isReviewOpened
-            })} ref ={reviewRef}>
+            })} ref={reviewRef}>
                 {product.reviews.map(r => (
                     <div key={r._id}>
                         <Review review={r} />
-                        <Divider/>
+                        <Divider />
                     </div>
                 ))}
-                <ReviewForm productId={product._id}/>
+                <ReviewForm productId={product._id} />
             </Card>
         </div>
     );
-};
+}));

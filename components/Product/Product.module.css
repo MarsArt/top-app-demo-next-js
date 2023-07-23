@@ -140,12 +140,14 @@
 }
 
 .closed {
+    display: none;
     overflow: hidden;
     max-width: 0;
     padding: 0;
 }
 
 .opened {
+    display: block;
     max-height: auto;
     padding: 30px;
 }
