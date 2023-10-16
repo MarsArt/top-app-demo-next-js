@@ -8,7 +8,6 @@
     flex: 1;
     flex-direction: column;
     justify-content: center;
-
     min-height: 100vh;
     padding: 4rem 0;
 }
@@ -18,9 +17,7 @@
     align-items: center;
     flex: 1;
     justify-content: center;
-
     padding: 2rem 0;
-
     border-top: 1px solid #EAEAEA;
 }
 
@@ -33,7 +30,6 @@
 
 .title a {
     text-decoration: none;
-
     color: #0070F3;
 }
 
@@ -45,7 +41,6 @@
 
 .title {
     margin: 0;
-
     font-size: 4rem;
     line-height: 1.15;
 }
@@ -57,17 +52,14 @@
 
 .description {
     margin: 4rem 0;
-
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
 .code {
     padding: 0.75rem;
-
     border-radius: 5px;
     background: #FAFAFA;
-
     font-family:
         Menlo,
         Monaco,
@@ -85,7 +77,6 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-
     max-width: 800px;
 }
 
@@ -93,11 +84,9 @@
     max-width: 300px;
     margin: 1rem;
     padding: 1.5rem;
-
     transition: color 0.15s ease, border-color 0.15s ease;
     text-align: left;
     text-decoration: none;
-
     color: inherit;
     border: 1px solid #EAEAEA;
     border-radius: 10px;
@@ -112,13 +101,11 @@
 
 .card h2 {
     margin: 0 0 1rem;
-
     font-size: 1.5rem;
 }
 
 .card p {
     margin: 0;
-
     font-size: 1.25rem;
     line-height: 1.5;
 }
@@ -131,7 +118,6 @@
 @media (max-width: 600px) {
     .grid {
         flex-direction: column;
-
         width: 100%;
     }
 }

@@ -25,6 +25,6 @@
     color: var(--red);
 }
 
-.error svg{
+.error svg {
     stroke: var(--red);
 }
