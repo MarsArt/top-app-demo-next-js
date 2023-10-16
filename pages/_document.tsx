@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps } from 'next/document';
+import Script from 'next/script';
 
 class MyDocument extends Document {
 
@@ -10,7 +11,9 @@ class MyDocument extends Document {
     render(): JSX.Element {
         return (
             <Html lang='ru'>
-                <Head />
+                <Head>
+                    <Script src='https://mc.yandex.ru/metrika/tag.js' strategy='beforeInteractive'/>
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
