@@ -10,7 +10,6 @@ function Home({ menu, firstCategory }: HomeProps): JSX.Element {
 
     const [raing, setRating] = useState<number>(4);
 
-
     return (
         <>            Hello with fonts
             <Htag tag='h1'>Текст</Htag>
