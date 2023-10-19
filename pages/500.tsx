@@ -2,7 +2,7 @@
 import { withLayout } from '../layout/Layout';
 import { Htag } from '../components';
 
-function Error500({ menu, firstCategory }: HomeProps): JSX.Element {
+function Error500(): JSX.Element {
 
     return (
         <>
