@@ -1,7 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import React, { use } from 'react';
 import ym from 'react-yandex-metrika';
 import { YMInitializer } from 'react-yandex-metrika';
 import { Router } from 'next/router';

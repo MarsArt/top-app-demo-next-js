@@ -1,4 +1,4 @@
-import { DetailedHTMLProps, HtmlHTMLAttributes, ReactNode } from 'react';
+import { DetailedHTMLProps, HtmlHTMLAttributes } from 'react';
 
 export interface SortProps extends DetailedHTMLProps<HtmlHTMLAttributes<HTMLDivElement>, HTMLDivElement> {
     sort: SortEnum;

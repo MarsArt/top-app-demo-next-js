@@ -12,7 +12,7 @@ import Image from 'next/image';
 import { forwardRef, ForwardedRef, useRef, useState } from 'react';
 import { Review } from '../Review/Review';
 import { ReviewForm } from '../ReviewForm/ReviewForm';
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
 export const Product = motion(forwardRef(({ product, className, ...props }: ProductProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
 
@@ -22,7 +22,7 @@ export const Product = motion(forwardRef(({ product, className, ...props }: Prod
     const variants = {
         visible: { opacity: 1, heigh: 'auto', padding: 30, display: 'block' },
         hidden: { opacity: 0, heigh: 0, padding: 0, display: 'none' }
-    }
+    };
 
 
     const scrollToReview = () => {

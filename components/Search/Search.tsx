@@ -20,14 +20,14 @@ export const Search = ({ className, ...props }: SearchProps): JSX.Element => {
             }
         });
 
-    }
+    };
 
     const handleKeyDown = (e: KeyboardEvent) => {
         if (e.key == 'Enter') {
             goToSearch();
         }
 
-    }
+    };
 
     return (
         <form className={cn(className, styles.search)} {...props} role='search'>

@@ -3,7 +3,6 @@ import styles from './Rating.module.css';
 import cn from 'classnames';
 import StarIcon from './star.svg';
 import { useEffect, useState, KeyboardEvent, forwardRef, ForwardedRef, useRef } from 'react';
-import { error } from 'console';
 
 // eslint-disable-next-line react/display-name
 export const Rating = forwardRef(({ isEditable = false, rating, error, setRating, tabIndex, ...props }: RatingProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
@@ -98,7 +97,7 @@ export const Rating = forwardRef(({ isEditable = false, rating, error, setRating
             ratingArrayRef.current[rating - 2]?.focus();
         }
 
-    }
+    };
 
     return (
         <div {...props} ref={ref} className={cn(styles.ratingWrapper,

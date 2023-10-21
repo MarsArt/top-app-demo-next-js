@@ -1,4 +1,4 @@
-import { Metadata, GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next';
+import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next';
 import React from 'react';
 import { withLayout } from '../../layout/Layout';
 import axios from 'axios';
@@ -23,11 +23,11 @@ import { Error404 } from '../404';
     };
 }*/
 
-async function getPage(alias: string) {
+/* async function getPage(alias: string) {
     const { data: page } = await axios.get<TopPageModel>(API.topPage.byAlias + alias);
 
     return page;
-}
+}*/
 
 function TopPage({ firstCategory, page, products }: TopPageProps): JSX.Element {
 

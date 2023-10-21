@@ -6,7 +6,7 @@ import { format } from 'date-fns';
 import { ru } from 'date-fns/locale';
 import { Rating } from '../Rating/Rating';
 
-export const Review = ({ review, children, className, ...props }: ReviewProps): JSX.Element => {
+export const Review = ({ review, className, ...props }: ReviewProps): JSX.Element => {
 
     const { name, title, description, createdAt, rating } = review;
     return (
